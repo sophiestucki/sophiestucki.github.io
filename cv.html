@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Sophie Stucki — CV</title>
+<meta name="robots" content="noindex">
+<style>
+@font-face {
+  font-family: 'Gabarito';
+  font-style: normal;
+  font-weight: 500 900;
+  font-display: swap;
+  src: url(fonts/gabarito-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Gabarito';
+  font-style: normal;
+  font-weight: 500 900;
+  font-display: swap;
+  src: url(fonts/gabarito-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Rethink Sans';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url(fonts/rethinksans-latin-ext.woff2) format('woff2');
+  unicode-range: U+0100-02BA, U+02BD-02C5, U+02C7-02CC, U+02CE-02D7, U+02DD-02FF, U+0304, U+0308, U+0329, U+1D00-1DBF, U+1E00-1E9F, U+1EF2-1EFF, U+2020, U+20A0-20AB, U+20AD-20C4, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Rethink Sans';
+  font-style: normal;
+  font-weight: 400 600;
+  font-display: swap;
+  src: url(fonts/rethinksans-latin.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+0304, U+0308, U+0329, U+2000-206F, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+:root { --ink: #0b0a0a; --muted: #4a4441; --orange: #cf6224; --oxblood: #470a0f; --butter: #f2dfa0; --paper: #f4f1ee; --olive: #8e8c4e; }
+@page { size: A4; margin: 15mm 16mm 15mm 16mm; }
+* { box-sizing: border-box; }
+html { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+body { margin: 0; background: #fff; color: var(--ink); font-family: 'Rethink Sans', Arial, sans-serif; font-size: 9.6pt; line-height: 1.42; }
+.page { max-width: 178mm; margin: 0 auto; }
+a { color: inherit; text-decoration: none; }
+header { background: var(--orange); padding: 6mm 6mm 5mm; margin-bottom: 5mm; }
+h1 { font-family: 'Gabarito', Arial, sans-serif; font-weight: 800; font-size: 28pt; line-height: 1; letter-spacing: -.02em; margin: 0 0 2.2mm; }
+.role { font-family: 'Gabarito', Arial, sans-serif; font-weight: 600; font-size: 12pt; margin: 0 0 1.6mm; }
+.contact { color: var(--ink); margin: 0; }
+.contact span + span::before { content: " · "; }
+h2 { font-family: 'Rethink Sans', Arial, sans-serif; font-weight: 600; font-size: 10pt; line-height: 1.35; letter-spacing: .06em; text-transform: uppercase; color: var(--paper); background: var(--oxblood); padding: 1.4mm 2.4mm 1.2mm; margin: 5mm 0 2.6mm; break-after: avoid; page-break-after: avoid; }
+p.lead { margin: 0; }
+.keep { break-inside: avoid; page-break-inside: avoid; }
+.row { page-break-inside: avoid; display: grid; grid-template-columns: 27mm 1fr; column-gap: 4mm; margin-bottom: 2.2mm; break-inside: avoid; }
+.row .when { font-weight: 600; color: var(--olive); font-variant-numeric: tabular-nums; padding-left: 2.4mm; }
+.row .what strong { font-weight: 600; }
+.row .what .where { color: var(--muted); }
+.row .what p { margin: .6mm 0 0; }
+ul.plain { list-style: none; margin: 0; padding: 0; }
+ul.plain li { break-inside: avoid; }
+.screen-note { display: none; }
+@media screen {
+  body { background: #f4f1ee; padding: 24px 16px; }
+  .page { background: #fff; padding: 15mm 16mm; box-shadow: 0 1px 4px rgba(0,0,0,.12); }
+  .screen-note { display: block; max-width: 178mm; margin: 0 auto 12px; font-size: 13px; color: var(--muted); }
+  .screen-note a { text-decoration: underline; }
+}
+
+</style>
+</head>
+<body>
+<div class="screen-note"><a href="cv.pdf">Download as PDF</a> · <a href="./">Back to the website</a></div>
+<main class="page">
+  <header>
+    <h1>Sophie Stucki</h1>
+    <p class="role">PhD student · Physics-based stellar activity modelling</p>
+    <p class="contact"><span>IEEC · ICE-CSIC · UAB, Barcelona, Spain</span><span><a href="mailto:stucki@ieec.cat">stucki@ieec.cat</a></span></p>
+    <p class="contact"><span>ORCID <a href="https://orcid.org/0009-0005-5102-6969">0009-0005-5102-6969</a></span><span><a href="https://scholar.google.com/citations?user=9hlHguUAAAAJ&amp;hl=en">Google Scholar</a></span><span><a href="https://github.com/sophiestucki">github.com/sophiestucki</a></span><span><a href="https://www.linkedin.com/in/sophie-stucki-138925175">LinkedIn</a></span></p>
+  </header>
+  <h2>Research interests</h2>
+  <p class="lead">Physics-based forward modelling of stellar activity in photometry, spectroscopy and radial velocities, from the Sun to other stars. Major developer of StarSim; creator and developer of SunSim, its solar implementation. Member of the Ariel and CARMENES consortia.</p>
+  <div class="keep">
+  <h2>Education</h2>
+    <div class="row"><div class="when">2025–now</div><div class="what"><strong>PhD in Physics</strong> <span class="where">· UAB, at IEEC and ICE-CSIC, Barcelona, Spain</span><p>Stellar activity modelling for EPRV. Supervisors: Ignasi Ribas, Nina Nèmec.</p></div></div>
+  </div>
+    <div class="row"><div class="when">2024</div><div class="what"><strong>MSc in Physics</strong> <span class="where">· EPFL, Lausanne, Switzerland</span><p>Thesis: Preparing for the ARRAKIHS mission (filter choice, detectability of ultra-faint dwarf galaxies). Supervisors: Pascale Jablonka, Yves Revaz.</p></div></div>
+    <div class="row"><div class="when">2020</div><div class="what"><strong>BSc in Physics</strong> <span class="where">· EPFL, Lausanne, Switzerland</span></div></div>
+    <div class="row"><div class="when">2017</div><div class="what"><strong>High school diploma</strong> <span class="where">· Lycée Denis-de-Rougemont, Neuchâtel, Switzerland</span></div></div>
+  <div class="keep">
+  <h2>Research experience</h2>
+    <div class="row"><div class="when">Sep–Nov 2026</div><div class="what"><strong>Research stay</strong> <span class="where">· CAUP, Porto, Portugal</span><p>With Nuno Santos, Khaled Al Moulla and colleagues.</p></div></div>
+  </div>
+    <div class="row"><div class="when">2024</div><div class="what"><strong>Research project</strong> <span class="where">· EPFL, Lausanne, Switzerland</span><p>Two-channel deconvolution with STARRED on simulated ARRAKIHS images. With Frédéric Courbin and Pascale Jablonka.</p></div></div>
+  <div class="keep">
+  <h2>Talks</h2>
+    <div class="row"><div class="when">Sep 2026</div><div class="what">GPRV 2026 workshop, All Souls College, Oxford, UK <span class="where">· <a href="https://youtu.be/al_3WiDE4lw">video</a></span></div></div>
+  </div>
+    <div class="row"><div class="when">Sep 2026</div><div class="what">XXXVI Encontro Nacional de Astronomia e Astrofísica, Porto, Portugal</div></div>
+    <div class="row"><div class="when">Jul 2026</div><div class="what">XVII Reunión Científica de la SEA, Tarragona, Spain</div></div>
+  <div class="keep">
+  <h2>Seminars</h2>
+    <div class="row"><div class="when">Nov 2026</div><div class="what">Invited seminar, CAUP, Porto, Portugal</div></div>
+  </div>
+    <div class="row"><div class="when">Oct 2026</div><div class="what">CAUP Cookie Seminar, Porto, Portugal</div></div>
+  <div class="keep">
+  <h2>Posters</h2>
+    <div class="row"><div class="when">Jul 2026</div><div class="what">HoRS3S: High-Resolution Exoplanet and Stellar Characterization Today and in the ELT Era, Granada, Spain</div></div>
+  </div>
+    <div class="row"><div class="when">Jun 2026</div><div class="what">Exoplanets 6, Porto, Portugal</div></div>
+    <div class="row"><div class="when">Mar 2026</div><div class="what">Ariel: Science, Mission &amp; Community 2026, Harwell, UK</div></div>
+    <div class="row"><div class="when">Jul 2025</div><div class="what">IAU Symposium 400: Solar and Stellar Multi-scale Activity, Medellín, Colombia</div></div>
+    <div class="row"><div class="when">Jun 2025</div><div class="what">EPRV 6, Porto, Portugal</div></div>
+  <div class="keep">
+  <h2>Service</h2>
+    <div class="row"><div class="when">Nov 2025</div><div class="what">Local organising committee, LIFE Conference (Large Interferometer For Exoplanets), Barcelona, Spain</div></div>
+  </div>
+  <div class="keep">
+  <h2>Co-authored papers</h2>
+    <div class="row"><div class="when">2026</div><div class="what">Nèmec, N.-E., et al., submitted to RASTI. <em>Model choice or model bias? How stellar spectral libraries and activity modelling choices influence Ariel spectra. I. Forward model.</em> <a href="https://arxiv.org/abs/2611.18107">arXiv:2611.18107</a></div></div>
+  </div>
+    <div class="row"><div class="when">2026</div><div class="what">Kröll, F., et al., ApJ, 1005, 86. <em>Decoding the radial velocity signatures of solar faculae with 3D magnetohydrodynamic simulations.</em></div></div>
+    <div class="row"><div class="when">2026</div><div class="what">Blanco-Pozo, J., et al., A&amp;A, 710, A194. <em>Mitigating stellar radial velocity jitter using orthogonal activity indices and a time-aware neural network.</em></div></div>
+    <div class="row"><div class="when">2026</div><div class="what">Quirrenbach, A., et al., Proc. SPIE. <em>Ten years of exoplanet discoveries and stellar astrophysics with CARMENES.</em></div></div>
+  <div class="keep">
+  <h2>Other experience</h2>
+    <div class="row"><div class="when">2024–2025</div><div class="what"><strong>IT support</strong> <span class="where">· JM Contactless, Martigny, Switzerland</span></div></div>
+  </div>
+    <div class="row"><div class="when">2024–2025</div><div class="what"><strong>Substitute teacher</strong> <span class="where">· State of Valais (État du Valais), Switzerland, Aug 2024 – Jan 2025</span></div></div>
+    <div class="row"><div class="when">2021–2025</div><div class="what"><strong>Pet sitter and dog trainer</strong> <span class="where">· Bex, Switzerland</span></div></div>
+    <div class="row"><div class="when">2016–2018</div><div class="what"><strong>Sponsorship manager and infrastructure designer</strong> <span class="where">· Lucifest Metal Festival (non-profit association), Neuchâtel, Switzerland</span></div></div>
+</main>
+</body>
+</html>
